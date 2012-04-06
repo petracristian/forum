@@ -1,0 +1,1 @@
+Feature: display topics		Scenario: 	Given that I am on page "HOMEPAGE"	When I click on link href "./viewforum.php?f=2"	Then I should see text "Your first forum"	And I wait 2 seconds	When I click on input "st"	And I wait 5 seconds	When I select option "1" from select "st"	And I click on button Go	And I wait 5 seconds	
