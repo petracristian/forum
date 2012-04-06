@@ -17,6 +17,7 @@ Scenario:
 	And I wait 5 seconds
 	When I click the button name "post"
 	And I wait 5 seconds
+	And I wait 5 seconds
 	
 Scenario: display topics
 	Given that I am on page "HOMEPAGE"
